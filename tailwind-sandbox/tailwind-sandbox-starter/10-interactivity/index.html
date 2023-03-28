@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<!-- <html lang="en" class=""> -->
+  <html lang="en" class="scroll-smooth">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <title>Interactivity</title>
+    </head>
+    <body>
+      <!-- Hover State Styling -->
+      <button class="bg-black text-white py-3 px-5 rounded lg m-3">
+        Submit Button
+      </button>
+
+      <br />
+
+      <button
+        class="bg-black text-white py-3 px-5 rounded lg m-3 hover:bg-orange-500 hover:text-green-500"
+      >
+        Submit Button
+      </button>
+
+      <!-- Focus State Styling -->
+      <button
+        class="bg-black text-white py-3 px-5 rounded lg m-3 focus:bg-green-500 focus:text-orange-500"
+      >
+        Submit Button
+      </button>
+
+      <!-- Active State Styling -->
+      <button
+        class="bg-black text-white py-3 px-5 rounded lg m-3 active:bg-blue-200 active:text-black-500"
+      >
+        Submit Button
+      </button>
+
+      <br /><br />
+      <hr />
+      <br />
+      <!-- Styling based on parent state -->
+      <a
+        href=""
+        class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+      >
+        <h3 class="group-hover:text-white">Card Title</h3>
+        <p class="group-hover:text-white">This is the card text</p>
+        <p class="hover:text-white">This is the card text</p>
+      </a>
+
+      <br /><br />
+      <hr />
+      <br />
+
+      <!-- Pseudo Classes -->
+      <ul>
+        <li class="first:bg-red-200">Item 1</li>
+        <li class="first:bg-red-200">Item 2</li>
+        <li class="first:bg-red-200">Item 3</li>
+        <li class="first:bg-red-200">Item 4</li>
+        <li class="first:bg-red-200">Item 5</li>
+        <li class="first:bg-red-200">Item 6</li>
+      </ul>
+
+      <br />
+      <ul>
+        <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+          Item 1
+        </li>
+        <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+          Item 2
+        </li>
+        <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+          Item 3
+        </li>
+        <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+          Item 4
+        </li>
+        <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+          Item 5
+        </li>
+        <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+          Item 6
+        </li>
+      </ul>
+
+      <br /><br />
+      <hr />
+      <br />
+      <!-- Appearance -->
+      <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+
+      <select class="">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <br /><br />
+
+      <select class="appearance-none">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <br /><br />
+      <hr />
+      <br />
+      <!-- Cursor -->
+      <p class="bg-gray-100 py-3 px-5 rounded lg m-3 cursor-wait">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eos? Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Ab, eos?
+      </p>
+
+      <p class="bg-gray-100 py-3 px-5 rounded lg m-3 cursor-not-allowed">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eos? Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Ab, eos?
+      </p>
+
+      <p class="bg-gray-100 py-3 px-5 rounded lg m-3 cursor-vertical-text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eos? Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Ab, eos?
+      </p>
+
+      <br /><br />
+      <hr />
+      <br />
+      <!-- Resize -->
+
+      <br /><br />
+      <hr />
+      <br />
+      <!-- User Select -->
+
+      <div class="">Try to highlight me :)</div>
+      <br />
+      <div class="select-none">Try to highlight me! >:)</div>
+      <br />
+      <div class="select-all">Try to highlight me! >:)</div>
+
+      <br /><br />
+      <hr />
+      <br />
+      <!-- Smooth Scroll Example -->
+      <a href="#item" class="block my-6">Smooth Scroll!</a>
+      <!-- TODO: add `scroll-smooth` to the page html element as such: `class<html lang="en" class="scroll-smooth" class="scroll-smooth">` -->
+      <p class="bg-green-200">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consectetur
+        explicabo quam voluptatem nisi repellat, quidem sed nostrum. Temporibus
+        totam quae optio nesciunt eum facere debitis enim. Fugiat cupiditate
+        expedita, necessitatibus consequatur consectetur possimus ab, officia
+        quis at illum unde magnam consequuntur eligendi et neque nobis enim
+        deserunt dolor ut cumque vitae! At facilis adipisci, itaque consequuntur
+        ratione culpa veritatis nulla magnam assumenda sapiente suscipit odio
+        quia exercitationem earum laboriosam, voluptates ullam, beatae expedita.
+        Praesentium nostrum minima enim tempore, culpa fuga! Veritatis placeat,
+        eos voluptas ad error dicta quam, sed optio aperiam necessitatibus quod
+        voluptate et? Quod, rem. Ea tempore aut magni obcaecati natus nesciunt
+        repudiandae totam, odit delectus, maiores unde perferendis molestias eos
+        officiis eum atque reiciendis eveniet! Officiis vero aut ea cumque
+        fugiat quisquam incidunt id cupiditate totam? Asperiores quos minima
+        reiciendis nam iste? Necessitatibus consequatur consectetur ducimus,
+        sunt molestiae quod ipsa quo ullam nobis, ad exercitationem nesciunt.
+        Illum aliquam hic, veritatis expedita ab excepturi iusto modi fuga
+        tempore cumque voluptatum, repellat sed officiis. Dolore eos earum
+        incidunt praesentium necessitatibus eligendi quis repellat ducimus
+        corporis! Illo, et ad maxime ipsam sit harum placeat, fugiat, officia
+        veniam rem aliquid exercitationem suscipit tenetur? Possimus non
+        deserunt sint reiciendis quas repellat ex enim provident ullam quasi
+        quaerat a, quod repudiandae molestiae exercitationem sequi, vitae magni
+        optio consequuntur placeat accusamus laboriosam, doloremque eius hic? At
+        iste ratione quidem debitis vero, nemo nam voluptatibus? Fuga, odio iure
+        animi saepe, ipsum perferendis neque recusandae nisi praesentium illum,
+        exercitationem dolorum placeat. Maiores hic odio, quia accusantium
+        distinctio, officia animi excepturi minus numquam saepe molestias eius
+        quos at laudantium. Maxime non quis, unde iusto quas deserunt sit nemo
+        qui, rem odit et esse tempora impedit magnam totam aperiam sunt
+        repudiandae! Voluptatum doloremque dolores sit impedit consequuntur
+        eveniet! Ullam provident voluptatibus nisi laborum ipsam est inventore.
+        Fuga accusantium dicta voluptatibus, maxime possimus voluptates vero
+        eligendi! Asperiores nesciunt porro nobis ut temporibus sit possimus
+        sapiente alias deleniti officiis, eum adipisci rerum inventore
+        exercitationem libero fuga id? Molestias voluptatum accusantium alias
+        placeat veritatis blanditiis quo repellendus sunt nesciunt fugit
+        cupiditate, reprehenderit aliquid iste soluta doloribus omnis animi nam
+        pariatur facilis excepturi ad earum itaque officiis. Numquam maxime
+        aperiam quas tenetur, fuga voluptates accusantium excepturi nobis,
+        molestiae omnis praesentium repellendus. Quae, id velit, nobis facere
+        culpa dolorum nesciunt aliquam sint modi, qui hic et! Doloremque
+        perspiciatis qui molestias vero illo animi eos consectetur ipsam
+        officiis cumque, ab commodi similique corrupti eveniet maxime quo esse
+        in at? Architecto possimus minus mollitia magni laboriosam eligendi vel,
+        reiciendis eum quidem laudantium nostrum odio, fuga, repellat in
+        repellendus numquam consectetur inventore similique ipsum. Dicta
+        mollitia rerum, molestiae illum doloribus ipsa modi quas quisquam,
+        inventore nulla ut dolores voluptatibus iusto commodi esse, ex eveniet
+        laboriosam eum non. Incidunt deleniti a officiis officia vitae fugiat,
+        itaque ipsum ullam, dignissimos neque mollitia sed eaque modi eos sequi
+        aperiam ratione eveniet nulla porro cumque provident saepe! Illo ullam
+        modi esse labore iusto repellendus soluta enim excepturi consequatur
+        sint possimus, veniam tempore recusandae sunt in iste itaque, eveniet
+        earum obcaecati, voluptates sed! Voluptate eius sint dicta debitis id
+        cum sunt repellat, harum nisi rerum, veniam non molestias accusamus
+        voluptates et rem ipsa autem alias aliquid cumque. Voluptatum excepturi
+        sapiente ratione explicabo deserunt sit provident numquam tempore rerum
+        et odit delectus nemo, magni fuga rem adipisci temporibus, maxime quasi
+        dolor culpa reprehenderit nesciunt! Deserunt, dicta corrupti! Qui
+        corrupti optio eum! Eveniet quas dolorum accusantium voluptatibus
+        perferendis, porro quae odio quasi. Sint delectus porro voluptatem
+        perferendis perspiciatis in quasi, commodi voluptatibus, consectetur
+        earum sapiente vitae alias corporis amet tempore fugit fugiat, accusamus
+        illo dignissimos qui ratione nemo nesciunt consequatur. Quae ut velit
+        esse maiores ratione deserunt dolore amet quia mollitia doloribus cum
+        pariatur corrupti necessitatibus, assumenda nam, inventore, est
+        voluptatem alias nesciunt odio sequi? Rerum, deserunt adipisci! Deleniti
+        vero tenetur alias obcaecati natus nihil impedit iure molestiae vitae
+        cumque, quidem nesciunt, non vel ad delectus dicta magni veniam iusto
+        voluptates sint temporibus beatae expedita? Pariatur non, dolorem
+        incidunt quis aut repellendus nihil minus similique dicta blanditiis
+        doloribus inventore maiores beatae, aspernatur optio sit est? Nulla
+        placeat nostrum est, vero sapiente quas facere modi maxime? Vero
+        asperiores architecto ab. Necessitatibus impedit neque temporibus
+        beatae? Repellat eius enim ipsam repellendus. Non eaque impedit maiores
+        ad eum, eius commodi, sit ipsa laboriosam qui libero soluta eos, amet
+        architecto sed quisquam dolor similique. Excepturi magni, culpa illo
+        ducimus optio facere molestias dignissimos animi, commodi incidunt
+        numquam facilis error pariatur illum est voluptatem corrupti. Quam
+        facilis, vero rem asperiores nostrum est eveniet cumque dignissimos
+        explicabo possimus laudantium vel voluptatibus praesentium! Cupiditate
+        suscipit odio, inventore sapiente ullam laborum nostrum tempore neque
+        nisi sint earum id. Porro ab voluptatum dignissimos sit repellendus
+        dolor nisi eius corrupti laudantium perferendis culpa a laborum quod
+        libero deserunt possimus explicabo commodi, illum quis aspernatur
+        consequuntur delectus, eaque ratione! Pariatur voluptatibus veniam
+        voluptate assumenda. Voluptas hic expedita consequatur atque aliquid
+        itaque vero, ut totam dignissimos tempora in eligendi, cumque error
+        beatae architecto ad veniam corporis exercitationem ab. Odit animi
+        numquam sequi aperiam tempore quidem iusto cumque est velit? Earum vel,
+        eum fuga provident cumque, quam blanditiis enim quas deserunt dolores
+        alias esse laborum sint dicta consectetur tempora, eveniet temporibus
+        quaerat eligendi est distinctio delectus accusantium animi similique!
+        Reiciendis, explicabo dolores? Quo tempore officiis ipsum nemo
+        blanditiis praesentium distinctio omnis quis ex labore hic, consequuntur
+        facere voluptatibus? Facere aut, rerum cumque unde quia nostrum?
+        Voluptas similique illo et cupiditate assumenda reprehenderit facere ex
+        sunt id. Libero dolorum doloribus et enim soluta quo odit dolores
+        distinctio iure unde? Officia maxime libero placeat explicabo quasi
+        laborum cumque numquam ullam fuga saepe dolorum repudiandae inventore
+        iste illum quae, non laudantium pariatur quidem. Deleniti odit eaque
+        minus magni ullam exercitationem neque error praesentium aut qui!
+        Sapiente neque corporis totam perferendis. Inventore in delectus
+        repudiandae provident dolor ducimus aliquam eaque, sit dignissimos
+        perspiciatis voluptas magni sunt neque alias pariatur esse natus
+        repellat ut? Consectetur at numquam, dolorem magni obcaecati enim quis
+        asperiores in libero laborum, dolorum, quidem tenetur sequi dolor illum
+        commodi. Vel quam aut, numquam voluptates et ea.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita totam
+        nulla sapiente maiores itaque distinctio unde quam laborum nesciunt
+        necessitatibus odio at magni doloremque eveniet vitae, ad, deleniti
+        adipisci, modi illum fugit? Temporibus aliquid blanditiis magni
+        laboriosam soluta deleniti aspernatur tempora fugit, maxime nisi iure
+        beatae ullam voluptatem laudantium, deserunt dolorum. Saepe eum
+        obcaecati sequi autem atque voluptates nostrum suscipit quia, ab eius in
+        pariatur quae quidem aliquam culpa dignissimos molestiae possimus,
+        dolores, quod tenetur modi! Dicta quibusdam alias vel culpa provident
+        odio enim debitis ratione hic deserunt? Libero et ducimus facere! Et
+        officiis deserunt at nisi, distinctio cupiditate, error eveniet ducimus
+        aliquam inventore velit assumenda vero laudantium nulla facere expedita
+        hic exercitationem. Id magni eum non quibusdam dolorem odit aperiam
+        tempore numquam corrupti in omnis quo, iste qui ipsam quos cum
+        architecto nisi perspiciatis quae, nostrum autem voluptates, veniam
+        tenetur? Provident illum in incidunt itaque inventore, tenetur quaerat?
+        Maiores, consequatur? Labore nisi voluptas, officiis impedit dolorem
+        neque voluptatibus a odio rerum et asperiores quisquam ad, animi quis
+        quae suscipit ullam atque facere dolore amet dolores aliquid iste
+        laborum velit! Ullam voluptatum quasi illo unde necessitatibus
+        molestias! Officia quo ipsa neque quisquam tempora labore quos amet est
+        velit incidunt temporibus quam debitis asperiores similique vero,
+        pariatur alias excepturi maiores ipsam deserunt consequuntur ipsum in
+        corrupti quae. Soluta ut odit vitae ab minima distinctio doloremque in
+        consectetur possimus dolor? Rerum impedit voluptates earum neque nobis
+        in dignissimos quas hic iure dolorem minus voluptatum quis non quasi
+        doloribus possimus minima aut aspernatur, error alias odit nemo! Vel
+        doloribus voluptatum sapiente neque, temporibus deleniti molestias
+        voluptate? Porro praesentium necessitatibus dolore velit veniam
+        eligendi, earum quidem accusamus et minima vitae harum, nulla quasi sed
+        ea doloremque unde nam ducimus pariatur. Sed aspernatur nostrum ducimus,
+        officiis possimus consequuntur maxime expedita optio, deleniti
+        asperiores dolorem corrupti ipsum ullam, modi quam praesentium numquam!
+        Veritatis, tenetur atque sunt delectus aut ab eius quibusdam possimus
+        iste voluptate accusantium corrupti est hic dolores eum odio suscipit
+        rerum doloribus! Alias voluptatibus tempora dolorem porro modi dolore
+        rem iusto, quasi ratione temporibus? Magni minus a placeat nihil omnis
+        non vel corporis distinctio eos repellat impedit perspiciatis deleniti
+        id hic dolorum adipisci autem amet ab sapiente at, optio blanditiis eius
+        temporibus quia! Nulla, et! Sit nemo ab inventore praesentium? Delectus
+        numquam autem veritatis aliquam tenetur quia laboriosam facere
+        repellendus illum cumque voluptatum dolorem voluptates dolor optio
+        consequuntur, placeat iste ipsam harum amet nobis veniam excepturi
+        dolores incidunt exercitationem? Est perferendis quae cumque, aperiam
+        officiis qui quia molestiae reprehenderit, ipsa adipisci praesentium
+        labore quaerat sequi natus eos facere odit recusandae tempore earum?
+        Fugiat unde nesciunt natus facilis nihil cupiditate, dolore, earum
+        possimus eos impedit id recusandae qui ipsum vitae laboriosam doloremque
+        molestiae? Consequatur aliquam voluptate atque quibusdam accusantium
+        eaque maiores, earum fugiat vero sit officia delectus perferendis! Quam,
+        illum. Voluptatem, doloribus libero cum deleniti quas necessitatibus
+        vero delectus. Illo, placeat ad distinctio praesentium nesciunt, eius
+        incidunt minus, saepe dicta corrupti laborum doloribus maiores et eum
+        nam veniam consequatur doloremque reiciendis? Culpa consectetur quaerat
+        sint!
+      </p>
+      <p class="bg-green-200">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+        corrupti quas aspernatur quaerat fugit sunt debitis non soluta labore
+        reiciendis, provident autem, vitae dolore obcaecati culpa ipsum. Ad
+        molestias voluptas mollitia officiis similique nihil nam, repellendus,
+        quis magni, saepe sapiente voluptatibus doloremque nostrum est!
+        Similique quam sequi magni facere cupiditate, cum a provident, deleniti
+        quibusdam neque, voluptas porro voluptatibus maiores quo repellat eius
+        delectus vel libero reprehenderit officia. Quidem soluta corrupti error
+        vel dolorem similique laudantium nostrum in voluptatum itaque quis,
+        magni totam odit necessitatibus, nobis dolores deserunt laboriosam!
+        Velit quia ea eaque est ut? Corrupti obcaecati porro ipsam incidunt et
+        labore accusantium necessitatibus, repellat cum nobis animi! Corrupti,
+        suscipit possimus! Ut laudantium laboriosam quisquam veniam enim
+        repellat alias iure repudiandae voluptate maiores reiciendis praesentium
+        eligendi, numquam corrupti pariatur velit quis soluta aspernatur
+        assumenda, eaque voluptatem, amet expedita. Nostrum quae tempore soluta
+        earum eos saepe! Voluptate iusto provident obcaecati eligendi asperiores
+        expedita aliquid at. Aut explicabo numquam debitis nostrum dolor itaque
+        quibusdam unde perspiciatis, ipsa nemo quod possimus quae porro
+        consequuntur error magni amet nesciunt. Dolores quia molestiae
+        voluptates ipsa maxime laboriosam blanditiis obcaecati quidem rem quod
+        quos aliquid tenetur sint doloribus veritatis cumque fuga corporis,
+        dolorum nulla accusamus sunt consectetur odio? In architecto rerum
+        iusto, odio maiores doloremque expedita omnis. Inventore cumque nesciunt
+        est necessitatibus odio beatae fugit, ipsa ipsam doloribus ullam vel
+        magnam eaque assumenda. Maiores explicabo nemo nobis rem suscipit
+        nostrum praesentium fugiat eligendi, doloremque neque repudiandae
+        ducimus deserunt temporibus, aperiam modi minima quis repellat
+        voluptatum quos eum ad, reprehenderit ullam. Voluptatibus eaque dicta
+        itaque molestiae laudantium minima quos velit sunt et accusamus. Ut non
+        iure quis sequi. Eius ea veniam enim quasi suscipit tenetur inventore
+        iusto placeat, distinctio laborum magni maxime nam cupiditate? Officia
+        labore sapiente enim provident, odio hic aspernatur quia qui doloremque
+        ipsa ipsum in repellendus ducimus aliquid eveniet officiis nemo animi
+        reprehenderit quaerat, placeat ut quae commodi. Aliquid molestiae
+        itaque, cupiditate similique vero quos inventore porro debitis molestias
+        velit, in quo alias nostrum doloribus earum laboriosam, sequi soluta
+        adipisci eius incidunt maxime culpa ad? Obcaecati ipsam adipisci vel
+        dolor. Quis ea fuga corporis, quisquam voluptatem id adipisci, soluta
+        magni tenetur, quibusdam illo incidunt? Nostrum aspernatur animi eum
+        architecto delectus modi saepe commodi, recusandae praesentium esse
+        soluta expedita mollitia quibusdam id quae, quam nihil fugiat
+        consequuntur distinctio voluptas cumque eaque nemo temporibus quas. Est
+        natus nam neque quaerat ab eveniet omnis, vel dolorum veritatis.
+      </p>
+
+      <br />
+      <div id="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        architecto est delectus, sint ab necessitatibus dolorum cumque deleniti
+        doloremque, libero adipisci veritatis eligendi eos tenetur placeat nam
+        enim repudiandae animi nihil modi, nemo voluptas commodi neque? Illum
+        delectus ea inventore sequi reiciendis deleniti laboriosam in corrupti
+        rem dignissimos, deserunt officia?
+      </div>
+    </body>
+  </html>
+
+  <br /><br />
+  <hr />
+  <br /><br /><br /><br />
+  <!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+--></html>
